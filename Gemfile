@@ -22,6 +22,14 @@ end
 gem 'therubyracer'
 gem 'jquery-rails'
 gem 'devise'
+
+group :test, do
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'rspec'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
